@@ -1,0 +1,123 @@
+@import '~antd/dist/antd.css';
+
+.ant-table-wrapper {
+    clear: both;
+    max-width: 80%;
+    margin-left: 10%;
+    /* box-shadow: 2px 2px 16px 3px lightgrey; */
+}
+
+.ant-table-thead > tr > th {
+    background: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    font-size: 0.7rem;
+}
+
+.ant-table-tbody > tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+.ant-table-tbody > tr{
+    border-bottom: 0px solid #f0f0f0;
+}
+
+
+.ant-table table {
+    box-shadow: 3px 0px 23px 2px lightgrey;  
+}
+
+/* .ant-space-align-center {
+    margin-left: 77%;
+} */
+
+
+.pagination-item-link, .ant-pagination-disabled:focus .ant-pagination-item-link {
+    color: rgb(80 158 252);
+    border-color: #ffffff;
+}
+
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+    background-color: #fff;
+    border: 0px solid #d9d9d9;
+    color: #509efc;
+}
+
+.ant-pagination-item {
+    border: 0px solid #d9d9d9;
+}
+
+.ant-pagination-item-active a {
+    color: #1890ff;
+}
+
+.ant-pagination-item-active {
+    color: #54a0fb;
+}
+
+.selectJob .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: 0px solid #d9d9d9;
+}
+
+.selectJob {
+    float: left;
+     margin-left: 9%;
+     margin-top: 32px;
+     /* width: 15%; */
+}
+.selectJob .ant-select :focus {
+    border: 0px solid #d9d9d9;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #519efc;
+}
+
+.dropdown-item {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.dropdown-divider {
+    height: 0;
+    margin: 0.rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+    width: 59%;
+    margin-left: 21%;
+    margin-top: -5px;
+}
+/**************** search input *********/
+.job-search.ant-btn-icon-only > * {
+    font-size: 21px;
+    color: #519efc;
+}
+
+.job-search.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
+    border-radius: 0 0px 0px 0;
+    border-left: none;
+}
+
+.ant-input-group .ant-input {
+    border-right: none;
+}
+
+.job-search.ant-input-search .ant-input:hover, .ant-input-search .ant-input:focus {
+    border-color: #d7d8d9;
+}
+
+.ant-input:focus, .ant-input-focused {
+    box-shadow: 0 0 0 0px rgb(24 144 255 / 20%);
+}
+
+.ant-btn:hover, .ant-btn:focus {
+    border-color: #d7d8d9;
+}
+
+/****************** Modal ***************/
+.ant-modal-header {
+    border-bottom: 0px solid #f0f0f0;
+}

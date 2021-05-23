@@ -1,0 +1,18 @@
+
+.ant-form-item-label > label {
+    float: left;
+}
+
+.ApplyForm-input{
+    background: #F9FAFD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #00000029;
+    border-radius: 10px;
+}
+
+.ApplyForm-submit{
+    background: #509EFC 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    width: 168px;
+    height: 45px;
+    margin-top: 50px;
+}

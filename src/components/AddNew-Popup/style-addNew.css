@@ -1,0 +1,24 @@
+.ant-modal-title {
+    text-align: center;
+    color: #509EFC;
+}
+
+.ant-modal-footer {
+    text-align: center;
+}
+
+.AddNew-Popup.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    position: relative;
+    background-color: #fff;
+    border: 0px solid #d9d9d9;
+    border-bottom: 1px solid #509EFC;
+}
+
+.ant-select-arrow {
+    color: #509EFC;
+}
+
+.AddNew-Input.ant-input {
+    border: 0px solid #d9d9d9;
+    border-bottom: 1px solid #509EFC;
+}
