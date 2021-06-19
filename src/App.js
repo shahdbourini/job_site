@@ -18,8 +18,8 @@ function App() {
         <div className="App">
           <div className="content">
             <Switch>
-              <Route exact path="/" component={null} />
-              <Route exact path="/JobTable">
+              {/* <Route exact path="/" component={null} /> */}
+              <Route exact path="/job_site">
                 <JobsTable />
               </Route>
               <Route exact path="/job-site">

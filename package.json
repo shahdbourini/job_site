@@ -1,6 +1,6 @@
 {
-  "homepage": "https://shahdbourini.github.io/job-site/",
-  "name": "job-site",
+  "homepage": "https://shahdbourini.github.io/job_site/",
+  "name": "job_site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
